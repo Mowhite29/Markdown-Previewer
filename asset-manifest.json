@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mowhite29/Markdown-Previewer.git/static/css/main.e3b9360f.css",
+    "main.js": "/Mowhite29/Markdown-Previewer.git/static/js/main.590bd390.js",
+    "static/js/453.ed3810f9.chunk.js": "/Mowhite29/Markdown-Previewer.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Mowhite29/Markdown-Previewer.git/index.html",
+    "main.e3b9360f.css.map": "/Mowhite29/Markdown-Previewer.git/static/css/main.e3b9360f.css.map",
+    "main.590bd390.js.map": "/Mowhite29/Markdown-Previewer.git/static/js/main.590bd390.js.map",
+    "453.ed3810f9.chunk.js.map": "/Mowhite29/Markdown-Previewer.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3b9360f.css",
+    "static/js/main.590bd390.js"
+  ]
+}
