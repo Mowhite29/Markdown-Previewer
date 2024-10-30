@@ -1,38 +1,79 @@
 .App {
   text-align: center;
+  font-size: 1rem;
+  max-width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#editor {
+  display: block;
+  width: 50%;
+  height: 30vh;
+  margin: 10px auto;
+  padding: 5px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#preview {
+  display: block;
+  border: 2px solid black;
+  width: 50%;
+  text-align: left;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#preview h1,
+#preview h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+#preview code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background: #d8e6ff;
+  padding: 0 3px;
+  color: #555;
+  border-radius: 3px;
+}
+
+#preview pre {
+  background: #d8e6ff;
+  padding: 5px 0 5px 5px;
+  line-height: 1.45;
+  overflow: auto;
+  color: #555;
+  border-radius: 3px;
+}
+
+#preview blockquote {
+  border-left: 3px solid #d8e6ff;
+  padding: 0 1rem;
+}
+
+#preview table {
+  border-collapse: collapse;
+}
+
+#preview tbody tr:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+#preview td,
+#preview th {
+  border: 1px solid #ccc;
+  padding: 0.6rem 1.3rem;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width : 500px) {
+  #editor {
+    width: 95%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  #preview {
+    width: 95%;
+    text-wrap: wrap;
+    font-size: 0.9rem
   }
 }
